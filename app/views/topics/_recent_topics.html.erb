@@ -1,0 +1,8 @@
+<div class="recent-topics">
+  <ul>
+    <% @topics.each do |topic|  %>
+      <li><%= topic.title %></li> 
+      <li><%= topic.created_at %></li>  
+    <% end %>
+  </ul>  
+</div>
