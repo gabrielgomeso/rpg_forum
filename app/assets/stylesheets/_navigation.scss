@@ -1,0 +1,10 @@
+.navigation {
+  width: 100vw;
+  background-color: gray;
+
+  &-links {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+  }
+}
