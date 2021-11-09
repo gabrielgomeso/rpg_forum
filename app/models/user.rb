@@ -6,4 +6,7 @@ class User < ApplicationRecord
   has_many :topics
   has_many :replies
   has_many :characters
+
+  validates :role, presence: true,
+                     inclusion: { in: %w[user mod admin], message: '%{value} is not a valid status' }
 end
