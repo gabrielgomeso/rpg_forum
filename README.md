@@ -1,24 +1,47 @@
-# README
+# PROJETO FÓRUM DE RPG
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<h3 align="center">  
+  <a href="#sobre">Sobre</a> |
+  <a href="#tecnologias">Tecnologias</a> | 
+  <a href="#instruções">Instruções</a> | 
+  <a href="#rotas">Rotas</a>
+</h3>
 
-Things you may want to cover:
+## Sobre
 
-* Ruby version
+<p align="justify">O projeto tem como intenção a criação de um RPG jogável por fórum (PBF) utilizando o framework Ruby on Rails para fins de estudo.</p>
 
-* System dependencies
+## Tecnologias
 
-* Configuration
+As tecnologias e ferramentas utilizadas nesse projeto foram:
+- Ruby versão 2.7.4
+- Rails versão 6.1.4
+- SASS
+- Devise
 
-* Database creation
+## Instruções
 
-* Database initialization
+Para utilizar o projeto na sua máquina basta forkar o repositório e clonar o repositório na sua máquina. Depois, rodar no terminal:
+``` 
+bundle install
+rails db:migrate
+```
 
-* How to run the test suite
+Caso não haja nenhum erro, iniciar o servidor local com
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+rails server
+```
 
-* Deployment instructions
+## Rotas
+/topics
+/replies
+/users
+/users/sign_up
+/users/sign_in
+/characters
 
-* ...
+
+## Adendos
+
+Essa página e esse projeto ainda estão em construção, então se você cair aqui por qualquer motivo que seja, esteja avisado :smile:
