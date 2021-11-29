@@ -1,7 +1,9 @@
+@import "variables";
+
 .navigation {
   width: 100vw;
   background-color: #E5E5E5;
-  height: 84px;
+  height: $nav-height;
   
   &-links {
     width: 100%;

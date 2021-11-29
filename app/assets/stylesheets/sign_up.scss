@@ -1,0 +1,21 @@
+.sign-up{
+  width: 100vw;
+  height: calc(100vh - 84px);
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+
+  .left-block, 
+  .right-block {
+    width: 50%;
+    height: 100%;
+    padding: 150px;
+  }
+
+  .right-block {
+    background-image: url('https://s2.glbimg.com/zC83radXYqL2YE1ezVSvb4b78vM=/0x0:857x450/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/S/P/aoiVslR423MN4YAEKhUA/captura-de-tela-2019-06-14-as-16.07.15.png');
+  }
+}
+
+
+
