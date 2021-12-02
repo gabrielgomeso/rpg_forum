@@ -2,13 +2,13 @@
   <ul class="navigation-links">
     <li class="logo">
         <%= link_to image_tag("logo", size: "50x50", alt: "Logo"), '/' %>
-        <span>
+        <span class="forum-name">
           Espada & Magia
         </span>
     </li>
     <li>
-      <%= link_to "Cadastrar", user_session_path, class: 'register' %>
-      <%= link_to "Entrar", new_user_registration_path, class: 'login'  %> 
+      <%= link_to "Cadastrar", new_user_registration_path, class: 'register' %>
+      <%= link_to "Entrar", user_session_path, class: 'login'  %> 
     </li>
   
   </ul>

@@ -1,9 +1,11 @@
-@import "variables";
+@import "../utils/variables";
+@import "../utils/fonts";
 
 .navigation {
   width: 100vw;
   background-color: #E5E5E5;
   height: $nav-height;
+  font-family: 'Roboto Black';
   
   &-links {
     width: 100%;
@@ -16,8 +18,6 @@
     .logo {
       display: flex;
       align-items: center;
-
-      text-transform: uppercase;
       font-weight: 800;
     }
 
@@ -25,11 +25,9 @@
     .login {
       padding: 15px;
       border-radius: 5px;
-
-      font-family: sans-serif;
       font-weight: 800;
       font-size: 12px;
-
+      text-transform: uppercase;
       text-decoration: none;
     }
 
@@ -42,6 +40,14 @@
     .login {
       background-color: #EAEAEA;
       color: #1682FD;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .navigation {
+    .forum-name {
+      display: none;
     }
   }
 }
