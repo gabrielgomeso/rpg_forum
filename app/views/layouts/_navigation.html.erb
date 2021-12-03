@@ -6,10 +6,14 @@
           Espada & Magia
         </span>
     </li>
-    <li>
-      <%= link_to "Cadastrar", new_user_registration_path, class: 'register' %>
-      <%= link_to "Entrar", user_session_path, class: 'login'  %> 
-    </li>
+    <% if user_signed_in? %> 
+      <%= link_to "Desconectar", destroy_user_session_path, method: :delete, class: 'register' %>
+    <% else %>
+      <li>
+        <%= link_to "Cadastrar", new_user_registration_path, class: 'register' %>
+        <%= link_to "Entrar", user_session_path, class: 'login'  %> 
+      </li>
+     <% end %>
   
   </ul>
 </nav>
