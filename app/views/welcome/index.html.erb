@@ -1,1 +1,6 @@
-<%= render "topics/recent_topics" %>
+<h2>Tópicos Recentes</h2>
+<% if @topics.nil? %>
+  <%= render "topics/recent_topics" %>
+<% else %>
+  <h3>Não há nada para mostrar ainda...</h3>
+<% end %>

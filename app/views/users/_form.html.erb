@@ -25,11 +25,13 @@
     <%= form.label :password %>
     <%= form.text_field :password %>
   </div>
-
-  <div class="field">
-    <%= form.label :role %>
-    <%= form.select :role, [["Usuário", "user"], ["Moderador", "mod"], ["Administrador", "admin"]] %>
-  </div>
+  
+  <% if current_user.role == 'admin' %>
+    <div class="field">
+      <%= form.label :role %>
+      <%= form.select :role, [["Usuário", "user"], ["Moderador", "mod"], ["Administrador", "admin"]] %>
+    </div>
+  <% end %>
 
   <div class="actions">
     <%= form.submit %>

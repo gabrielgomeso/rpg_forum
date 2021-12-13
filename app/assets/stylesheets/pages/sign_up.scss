@@ -39,6 +39,7 @@
         height: 42px;
         border: 1px;
         background-color: $white;
+        padding: 5px;
 
         box-shadow: 1px 1px 3px 1px gray;
         margin: 5px 0 10px 0;
@@ -58,6 +59,7 @@
         letter-spacing: 1px;
         color: $white;
         background-color: $secondary-color;
+        cursor: pointer;
       }
     }
   }
