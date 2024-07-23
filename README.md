@@ -1,8 +1,5 @@
 # PROJETO FÓRUM DE RPG
 
-<h1>Esse projeto foi arquivado</h1>
-<p>Motivo: valia mais a pena começar do 0 e documentar corretamente do que seguir numa base feia.</p>
-
 <h3 align="center">  
   <a href="#sobre">Sobre</a> |
   <a href="#tecnologias">Tecnologias</a> | 
